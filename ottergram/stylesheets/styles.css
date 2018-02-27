@@ -23,7 +23,7 @@ html, body {
 }
 
 body {
-  background: rgb(13, 29, 237);
+  background: rgb(149, 194, 215);
   display: flex;
   flex-direction: column;
   font-size: 10px;
@@ -48,7 +48,7 @@ body {
 .detail-image-title {
   bottom: -16px;
   color: white;
-  font-family: 'airstreamregular';
+  font-family: airstreamregular;
   font-size: 40px;
   left: 4px;
   position: absolute;
@@ -74,13 +74,13 @@ body {
 }
 
 .round {
-  background-color: rgba(76, 201, 227, 0.9);
-  color: white;
-  position: absolute;
+  background-color: rgb(54, 54, 54);
   border-radius: 50%;
+  color: white;
   padding: 1% 2%;
-  visibility: visible;
+  position: absolute;
   top: 60%;
+  visibility: visible;
   z-index: 200;
 }
 

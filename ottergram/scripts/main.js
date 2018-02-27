@@ -58,7 +58,7 @@ function getCurrentImageIndex() {
   }
   return -1;
 }
-
+/*exported next prev*/
 function next() {
   "use strict";
   var thumbnailArray = getThumbnailsArray();
