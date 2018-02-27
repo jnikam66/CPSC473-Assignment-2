@@ -73,6 +73,17 @@ body {
   flex-direction: column;
 }
 
+.round {
+  background-color: rgba(76, 201, 227, 0.9);
+  color: white;
+  position: absolute;
+  border-radius: 50%;
+  padding: 1% 2%;
+  visibility: visible;
+  top: 60%;
+  z-index: 200;
+}
+
 .thumbnail-image {
   display: block;
   width: 100%;
@@ -111,15 +122,4 @@ body {
 
 .next {
   right: -1%;
-}
-
-.round {
-  background-color: rgba(76, 201, 227, 0.9);
-  color: white;
-  position: absolute;
-  border-radius: 50%;
-  padding: 1% 2%;
-  visibility: visible;
-  top: 60%;
-  z-index: 200;
 }
